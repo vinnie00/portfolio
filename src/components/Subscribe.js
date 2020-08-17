@@ -10,7 +10,7 @@ export default function Subscribe() {
             <h2 className="text-white mb-5">If you want to hear more about my experience click below</h2>
 
             <form className="form-inline d-flex">
-              <button type="submit" className="btn btn-primary mx-auto">
+              <button type="submit" onClick={() => {window.location.href="../../public/Resume2020.pdf"}} className="btn btn-primary mx-auto">
                 My Resume
               </button>
             </form>
