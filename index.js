@@ -1,18 +1,18 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
+import Layout from './src/components/Layout';
+import Scroll from './src/components/Scroll';
 
-import config from '../../config';
-import Footer from '../components/Footer';
-import SocialLinks from '../components/SocialLinks';
-import Subscribe from '../components/Subscribe';
-import Header from '../components/Header';
+import config from './config';
+import Footer from './src/components/Footer';
+import SocialLinks from './src/components/SocialLinks.js';
+import Subscribe from './src/components/Subscribe';
+import Header from './src/components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import ipad from './src/assets/images/ipad.png';
+import demoImage1 from './src/assets/images/demo-image-01.jpg';
+import demoImage2 from './src/assets/images/demo-image-02.jpg';
+import bgMaster from './src/assets/images/bg-masthead.jpg';
 
 const IndexPage = () => (
   <Layout>
