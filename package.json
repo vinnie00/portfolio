@@ -48,4 +48,10 @@
     "url": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale/issues"
   },
   "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale#readme"
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  }
+}
+{
+  
 }
