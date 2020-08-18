@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/collin/coding/Bootcamp/homework/portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Grayscale","short_name":"Landing","start_url":"/gatsby-starter-grayscale/","background_color":"#663399","theme_color":"#663399","display":"standalone","icon":"src/assets/img/website-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"5f3d467d869c45484087e979bbadd18d"},
+      options: {"plugins":[],"name":"Grayscale","short_name":"Landing","start_url":"/portfolio/","background_color":"#663399","theme_color":"#663399","display":"standalone","icon":"src/assets/img/website-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"5f3d467d869c45484087e979bbadd18d"},
     },{
       plugin: require('/Users/collin/coding/Bootcamp/homework/portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
